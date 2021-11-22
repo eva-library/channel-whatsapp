@@ -59,6 +59,8 @@ exports.handler = function (context, event, callback) {
 - accountSid
 - authToken
 
+[![N|Solid](https://i.ibb.co/GRNHBHG/001.png)](https://i.ibb.co/GRNHBHG/001.png)
+
 > And replace with the credentials that your twilio account gives you.
 
 > With all the connector variables modified, it only remains to deploy the code in any cloud (Azure, GCP, Aws, etc..)
