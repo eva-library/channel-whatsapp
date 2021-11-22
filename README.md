@@ -8,12 +8,7 @@
 
 > The first thing we must do is create an account in Twilio.
 
-[![N|Solid](https://openil.s3-sa-east-1.amazonaws.com/whatsapp/whatsapp02.png)](https://www.twilio.com/)
-
 > Once the account is created, we go to the Functions option and create one.
-
-![N|Solid](https://openil.s3-sa-east-1.amazonaws.com/whatsapp/whatsapp01.png)
-
 
 
 | Create Function |   |
@@ -64,12 +59,7 @@ exports.handler = function (context, event, callback) {
 - accountSid
 - authToken
 
-As the following picture shows
-![N|Solid](https://openil.s3-sa-east-1.amazonaws.com/whatsapp/whatsapp03.png)
-
 > And replace with the credentials that your twilio account gives you.
-
-![N|Solid](https://openil.s3-sa-east-1.amazonaws.com/whatsapp/whatsapp04.png)
 
 > With all the connector variables modified, it only remains to deploy the code in any cloud (Azure, GCP, Aws, etc..)
 
